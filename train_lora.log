@@ -1,0 +1,10 @@
+[2025-07-06 21:00:36,831] INFO: TORCH_USE_DTENSOR: None
+[2025-07-06 21:00:36,831] INFO: [INFO] Loading Commonsense170K dataset
+[2025-07-06 21:00:36,843] INFO: [INFO] Loading tokenizer
+[2025-07-06 21:00:36,959] INFO: [INFO] Loading base model
+[2025-07-06 21:00:41,130] INFO: 模型权重所在设备: cuda:0
+[2025-07-06 21:00:41,362] INFO: [INFO] LoRA modules injected
+[2025-07-06 21:00:41,499] INFO: gcc -pthread -B /root/miniconda3/envs/clora/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /root/miniconda3/envs/clora/include -fPIC -O2 -isystem /root/miniconda3/envs/clora/include -fPIC -c /tmp/tmprsc163ls/test.c -o /tmp/tmprsc163ls/test.o
+[2025-07-06 21:00:41,515] INFO: gcc -pthread -B /root/miniconda3/envs/clora/compiler_compat /tmp/tmprsc163ls/test.o -laio -o /tmp/tmprsc163ls/a.out
+[2025-07-06 21:00:42,043] INFO: gcc -pthread -B /root/miniconda3/envs/clora/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /root/miniconda3/envs/clora/include -fPIC -O2 -isystem /root/miniconda3/envs/clora/include -fPIC -c /tmp/tmpo7ebzj0t/test.c -o /tmp/tmpo7ebzj0t/test.o
+[2025-07-06 21:00:42,058] INFO: gcc -pthread -B /root/miniconda3/envs/clora/compiler_compat /tmp/tmpo7ebzj0t/test.o -L/usr/local/cuda -L/usr/local/cuda/lib64 -lcufile -o /tmp/tmpo7ebzj0t/a.out

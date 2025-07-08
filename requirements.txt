@@ -1,0 +1,6 @@
+transformers
+datasets
+peft
+accelerate
+deepspeed
+torch>=2.0
